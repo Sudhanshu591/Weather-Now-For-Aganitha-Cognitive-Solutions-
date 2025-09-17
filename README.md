@@ -16,6 +16,6 @@ WeatherNow is a modern and responsive weather application built with Next.js, of
 
 - **Framework:** Next.js (with App Router)
 - **Language:** TypeScript
-- **AI:** Google Gemini API
+- **AI:** Google Gemini API & open-meteo API
 - **UI:** React, ShadCN UI, Tailwind CSS
 - **Icons:** lucide-react
