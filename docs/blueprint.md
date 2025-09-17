@@ -18,3 +18,4 @@
 - Use a set of simple, outlined icons from a public library to represent different weather conditions (sun, cloud, rain, snow, etc.).
 - A clean, single-page layout with a prominent display of current weather data and a search bar at the top.
 - Subtle transitions and animations when loading data or switching locations to provide a smooth user experience.
+
