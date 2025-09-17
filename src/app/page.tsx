@@ -7,7 +7,7 @@ import { LocationSearch } from '@/components/weather/location-search';
 import { UnitToggle } from '@/components/weather/unit-toggle';
 import { CurrentWeatherCard } from '@/components/weather/current-weather-card';
 import { ForecastCard } from '@/components/weather/forecast-card';
-import { getMockWeatherData, type FullWeatherInfo } from '@/lib/weather-utils';
+import { getWeatherData, type FullWeatherInfo } from '@/lib/weather-utils';
 import { generateWeatherSummary } from '@/ai/flows/generate-weather-summary';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { AlertTriangle } from 'lucide-react';
@@ -29,7 +29,7 @@ export default function WeatherNowPage() {
     setSummary(null);
     setWeatherInfo(null);
     try {
-      const data = await getMockWeatherData(loc);
+      const data = await getWeatherData(loc);
       setWeatherInfo(data);
       setLocation(data.current.location);
       
@@ -111,7 +111,6 @@ export default function WeatherNowPage() {
           </div>
 
           <footer className="text-center text-sm text-muted-foreground pt-4">
-            <p>Made By Sudhanshu Tamboli</p>
           </footer>
         </div>
       </main>
