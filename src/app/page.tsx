@@ -111,7 +111,7 @@ export default function WeatherNowPage() {
           </div>
 
           <footer className="text-center text-sm text-muted-foreground pt-4">
-            <p>Powered by Next.js and Genkit</p>
+            <p>Made By Sudhanshu Tamboli</p>
           </footer>
         </div>
       </main>
